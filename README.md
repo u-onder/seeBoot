@@ -1,9 +1,10 @@
 <div align="center">
-  <h2>yasb4arm<h2><br><br>
+  <h2>yasb4arm</h2>
+  <h4>Yet Another Secure Bootloader for ARM micro-Controllers</h4>
 </div>
 ## About
 
-yasb4arm is a secure bootloader project designed for arm core microcontrollers, specifically developed for STM32 family of microcontrollers.
+yasb4arm is a secure bootloader project designed for arm core microcontrollers, initally developed for STM32 family of microcontrollers.
 This project is a collection of 3 projects; one for bootloader firmware, one for image creation and signing of binaries, one for flash utility.
 
 ## yasb4arm-Bootlader
