@@ -3,7 +3,9 @@
 	
 	\details CRC32 device driver. It leverages the CRC32 hardware of STM32F4XX devices.
 
-	\copyright Copyright (c) 2017 u-onder
+	\date      2017
+	\author    u-onder
+	\copyright MIT License
 */
 
 #include "crc.h"

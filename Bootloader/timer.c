@@ -4,7 +4,9 @@
 	\details This is the timer driver of STM32f4 sys timer.
 	\details The resolution of the timer driver is 8 ms.
 
-	\copyright Copyright (c) 2017 u-onder
+	\date      2017
+	\author    u-onder
+	\copyright MIT License
 */
 
 #include "timer.h"

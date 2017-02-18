@@ -1,7 +1,9 @@
 /*! \file misc.c
     \brief   miscellaneous functions
 	
-	\copyright Copyright (c) 2017 u-onder
+	\date      2017
+	\author    u-onder
+	\copyright MIT License
 */
 
 #include "misc.h"

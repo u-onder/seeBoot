@@ -9,7 +9,9 @@
 	\details __serialLLx functions are low level functions. If you want to use another serial
 			 channel, you should change these functions
 
-	\copyright Copyright (c) 2017 u-onder
+	\date      2017
+	\author    u-onder
+	\copyright MIT License
 */
 
 #include "config.h"

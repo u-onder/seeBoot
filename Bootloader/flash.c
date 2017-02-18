@@ -6,7 +6,9 @@
         \details This flash handle implementation unlocks flash write protection flags.
                  So user must call close handler before any boot operation...
 
-	\copyright Copyright (c) 2017 u-onder
+	\date      2017
+	\author    u-onder
+	\copyright MIT License
 */
 
 #include "config.h"

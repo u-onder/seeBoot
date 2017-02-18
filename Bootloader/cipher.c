@@ -8,7 +8,9 @@
 	\details yasb4arm uses CBC with random IV mode. To deal with choosen cipher text attacks,
 			 we use a second four 32 bit word key to encrypt IV before plain CBC.
 
-	\copyright Copyright (c) 2017 u-onder
+	\date      2017
+	\author    u-onder
+	\copyright MIT License
 */
 #include "config.h"
 
