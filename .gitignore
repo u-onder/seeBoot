@@ -3,3 +3,7 @@
 /Imager/Debug/
 /Imager/Release/
 /Imager/*.sdf
+/Imager/*.suo
+/Flasher/obj/
+/Flasher/bin/
+/Flasher/*.suo
