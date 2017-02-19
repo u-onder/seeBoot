@@ -6,7 +6,7 @@
              boot image. If it founds one, it will inform host with image name string, and
              initialize an auto-boot sequence. But if it fails to find a proper boot image
              it will print a 'boot image not found' message and fall into boot command shell
-	\details The auto-boot procedure can be interrupted. yasb4arm will
+	\details The auto-boot procedure can be interrupted. seeBoot will
              fall in to boot command shell. If no boot image is found bootloader will
              automatically  shell.
         \details Shell commands:
@@ -68,7 +68,7 @@ void    __boot             (ui32_t address);
 // BOOT PROCEDURE NMEAS
 //-----------------------------------------------------------------------------
 //bootloader name string
-char_t BootloaderNameString[]    = "yasb4arm v0.1";
+char_t BootloaderNameString[]    = "seeBoot v0.1";
 
 int_t  bootable = ERROR;
 char_t bootImageName[BOOTIMAGE_NAME_SIZE+1];

@@ -15,14 +15,14 @@
 #define PINCODE "987654321"
 
 //! brief Keys1 used in cipher and decipher processes.
-//! warning yasb4arm is a "Shared Secret" system, so these keys must be kept SECRET
+//! warning seeBoot is a "Shared Secret" system, so these keys must be kept SECRET
 #define KEY11     0x00112233  
 #define KEY12     0x44556677
 #define KEY13     0x8899AABB
 #define KEY14     0xCCDDEEFF
 
 //! brief Keys2 used in random IV cbc mode encryption.
-//! warning yasb4arm is a "Shared Secret" system, so these keys must be kept SECRET
+//! warning seeBoot is a "Shared Secret" system, so these keys must be kept SECRET
 #define KEY21     0x01234567  
 #define KEY22     0x89ABCDEF
 #define KEY23     0xFEDCBA98

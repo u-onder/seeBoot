@@ -1,23 +1,25 @@
 <div align="center">
-  <h2>yasb4arm</h2>
-  <h4>Yet Another Secure Bootloader for ARM micro-Controllers</h4>
+  <h2>seeBoot</h2>
+  <h4>Secure Encrypted Embedded Bootloader</h4>
+  <h5>for</h5>
+  <h4>micro-Controllers</h4>
 </div>
 ## About
 
-yasb4arm is a secure bootloader project designed for arm core microcontrollers, initally developed for STM32 family of microcontrollers.
-This project is a collection of 3 projects; one for bootloader firmware, one for image creation and signing of binaries, one for flash utility.
+seeBoot is a secure and encrypted embedded bootloader project designed for microcontrollers, initally developed for STM32 family of microcontrollers.
+This project is a collection of 3 projects; one for bootloader firmware, one for signing binaries and image creation, one for microcontroller flash utility.
 
-## yasb4arm-Bootlader
+## seeBoot-Bootloader
 
-This is the core of yasb4arm.
+This is the core of seeBoot.
 After power up (HW and SW resets), bootloader checks for a valid signed  boot image. If exists, it initializes an auto-boot sequence. Otherwise it automatically falls into boot command shell.
 It is also possible to interrupt auto-boot procedure to jump into boot command shell.
 
-## yasb4arm-ImageGenerator
+## seeBoot-ImageGenerator
 
-This project generates encripted and criptographically signed boot images from intel-hex formatted binaries.
+This project generates encrypted and criptographically signed boot images from intel-hex formatted binaries.
 
-## yasb4arm-FlashUtil
+## seeBoot-FlashUtil
 
 This project is an example project to burn flash with signed images. Its purpose is to demonstrate communication via Bootloader's boot command shell. You can (should) use this project as an example/tutorial for your own Flash Utility
 

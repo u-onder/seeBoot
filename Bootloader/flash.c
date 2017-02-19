@@ -1,5 +1,5 @@
 /*! \file flash.c
-    \brief   yasb4aarm-Bootloader flash dependent algorithms and drivers
+    \brief   seeBoot flash dependent algorithms and drivers
 	
         \details Flash dependent read, write operation handler. Driver has following features:
         \details Erease, Write, Verify, Get Image Name String...

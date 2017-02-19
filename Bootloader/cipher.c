@@ -1,11 +1,11 @@
 /*! \file cipher.c
-    \brief   yasb4arm cipher algorithm
+    \brief   seeBoot cipher algorithm
 	
-	\details yasb4arm-Bootloader cipher algorithm
-	\details yasb4arm uses XTEA algorithm as cipher. This algorithm takes two 32 bit words and does
+	\details seeBoot cipher algorithm
+	\details seeBoot uses XTEA algorithm as cipher. This algorithm takes two 32 bit words and does
              CHIPHER_ROUDS Feistel operations. Key space is four 32 bit words.
 
-	\details yasb4arm uses CBC with random IV mode. To deal with choosen cipher text attacks,
+	\details seeBoot uses CBC with random IV mode. To deal with choosen cipher text attacks,
 			 we use a second four 32 bit word key to encrypt IV before plain CBC.
 
 	\date      2017
