@@ -76,7 +76,7 @@ int getImageName(char* imagenamestring, char* argv)
 	return 0;
 }
 
-void printIGeneratorHeader(void)
+void printImgGenHeader(void)
 {
 	printf("\r\n");
 	printf("-----------------------------------------------------------------\r\n");
@@ -92,7 +92,7 @@ void printIGeneratorHeader(void)
 	printf("-----------------------------------------------------------------\r\n");
 }
 
-void printIGeneratorUsage(void)
+void printImgGenUsage(void)
 {
 	printf("Usage:\r\n");
 	printf("IGenerator.exe -f <hexfile> -o <outfile> -i <iname>\r\n");

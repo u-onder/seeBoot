@@ -9,7 +9,7 @@ int getTargetFileName(char* xmlfilename, char* argv);
 int getKey(unsigned int* key, char* argv);
 int getImageName(char* imagenamestring, char* argv);
 
-void printIGeneratorHeader(void);
-void printIGeneratorUsage(void);
+void printImgGenHeader(void);
+void printImgGenUsage(void);
 
 #endif
