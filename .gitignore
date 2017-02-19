@@ -2,3 +2,4 @@
 /Bootloader/settings/
 /Imager/Debug/
 /Imager/Release/
+/Imager/*.sdf
