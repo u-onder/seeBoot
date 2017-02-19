@@ -16,16 +16,16 @@
 
 //! brief Keys1 used in cipher and decipher processes.
 //! warning yasb4arm is a "Shared Secret" system, so these keys must be kept SECRET
-#define KEY11     0x47F6B74B  
-#define KEY12     0x35664A3D
-#define KEY13     0xB49CBA17
-#define KEY14     0xBC430E26
+#define KEY11     0x00112233  
+#define KEY12     0x44556677
+#define KEY13     0x8899AABB
+#define KEY14     0xCCDDEEFF
 
 //! brief Keys2 used in random IV cbc mode encryption.
 //! warning yasb4arm is a "Shared Secret" system, so these keys must be kept SECRET
-#define KEY21     0xE5414805  
-#define KEY22     0xA6A87E4F
-#define KEY23     0xBBD194BF
-#define KEY24     0xB1A28F83
+#define KEY21     0x01234567  
+#define KEY22     0x89ABCDEF
+#define KEY23     0xFEDCBA98
+#define KEY24     0x76543210
 
 #endif
