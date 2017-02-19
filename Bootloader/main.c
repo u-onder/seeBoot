@@ -10,16 +10,19 @@
              fall in to boot command shell. If no boot image is found bootloader will
              automatically  shell.
         \details Shell commands:
-        \details b: (cb.00<CR><LF>) immediate boot.
-        \details e: (ce.00<CR><LF>) full chip erease. This may take several secondes 
+        \details b: (cb.62<CR><LF>) immediate boot.
+        \details e: (ce.65<CR><LF>) full chip erease. This may take several secondes 
         \details c: (cp<DATA>.<CRC><CR><LF>) program block with from cipher text.
         \details v: (cv<DATA>.<CRC><CR><LF>) verify block against given cipher text.
         \details i: (ci<PIN>.<CRC><CR><LF>) auto-boot interrupt pin
 
         \details Shell responces:
-        \details a: (ca.00<CR><LF>) Acknowledgement
-        \details n: (cn.00<CR><LF>) Not-Acknowledge
+        \details a: (ca.61<CR><LF>) Acknowledgement
+        \details n: (cn.6E<CR><LF>) Not-Acknowledge
 
+	\warning Serial comm protocol only supports upper case hexedecimal values, since 
+	         lower case characters are reserved for command characters
+		
 	\date      2017
 	\author    u-onder
 	\copyright MIT License

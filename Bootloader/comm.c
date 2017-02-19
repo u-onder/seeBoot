@@ -4,6 +4,9 @@
 
     \details Serial communication protocol source file.
 
+	\warning Serial comm protocol only supports upper case hexedecimal values, since 
+	         lower case characters are reserved for command characters
+	
 	\date      2017
 	\author    u-onder
 	\copyright MIT License
